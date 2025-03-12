@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.patch-section {
+    margin-top: 20px;
+}
+
+.patch-subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.patch-mode {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-top: 10px;
+}
+
+.patch-highlight {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+ul li::before {
+    content: "•";
+    color: #f8c72b;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Special Note Styling */
+.patch-note {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 5px solid #f8c72b;
+    padding: 10px;
+    padding-top: 3px;
+    font-style: italic;
+    margin: 5px;
+}

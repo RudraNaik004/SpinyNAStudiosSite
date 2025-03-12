@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../js/calamari.js"></script>
+    <title>L&N Studios | News</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../../css/glassmorphic.css">
+    <link rel="stylesheet" type="text/css" href="../../css/Calamari.css">
+    <link rel="stylesheet" type="text/css" href="../../css/news.css">
+
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">L&N Studios</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- Dropdown Menu -->
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dungeonShiftDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dungeon Shift
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dungeonShiftDropdown">
+                            <li><a class="dropdown-item" href="../dungeonShift_info.html">Info</a></li>
+                            <li><a class="dropdown-item" href="../dungeonShift_rules.html">Rulebook</a></li>
+                            <li><a class="dropdown-item" href="../dungeonShift_gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <a class="nav-link" href="../Calamari.html">Calamari</a>
+                    <a class="nav-link" href="../news.html">News</a>
+                    <a class="nav-link" href="../about.html">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+    <div class="container mt-5">
+        <h2 class="section-title">Update</h2>
+
+        <!-- Dev Notes -->
+        <div>
+            <div class="patch-section">
+                <h3 class="patch-subtitle"><i>Patch 0.0.41</i></h3>
+                <h5 style="color:whitesmoke"><i>Calamari Beta Testing, often known as CBT, is a videogame...</i></h5>
+                <br>
+                <p>Welcome to Patch 0.04 of the Calamari Beta Test. We've been making a lot of refinements based on
+                    player
+                    feedback, and this patch brings some major adjustments to healing, cover mechanics, range modifiers,
+                    progression, and more. Let's dive into the details.</p>
+            </div>
+
+            <div class="patch-section">
+                <h3 class="patch-subtitle">-Medkit Revamps</h3>
+                <p>After the last playtest, we noticed that the lack of medics turned deep wounds into a major hassle.
+                    To
+                    address this, we're adjusting how medical kits function to allow all players to carry and use them.
+                </p>
+                <div class="patch-note">
+                    <ul>
+                        <li>Standard First Aid Kits (FAKs) now have 3 uses, primarily treating flesh wounds. If only
+                            deep
+                            wounds
+                            exist, they reduce severity by converting them into flesh wounds.</li>
+                        <li>Surgical Kits have been replaced with Advanced First Aid Kits (AFAKs), which are no longer
+                            exclusive
+                            to
+                            medics and are used to treat deep wounds.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="patch-section">
+                <h3 class="patch-subtitle">-Cover Rebalancing</h3>
+                <p>Cover has always been tricky to balance, so we've simplified the system:</p>
+                <div class="patch-note">
+                    <ul>
+                        <li>All cover now provides a +1 bonus, regardless of type.</li>
+                        <li>Weapon penetration values now dictate effectiveness against cover.</li>
+                        <li>Penetration (Pen) 2 and 3 weapons can negate cover bonuses entirely based on cover type.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="patch-section">
+                <h3 class="patch-subtitle">-Range Modifier Consistency</h3>
+                <p>Range modifiers have been inconsistent, so we're refining them for clarity:</p>
+                <div class="patch-note">
+                    <ul>
+                        <li>Close range: &lt;15m</li>
+                        <li>Medium range: 15-50m</li>
+                        <li>Long range: 50-100m</li>
+                        <li>Extreme range: 100m+</li>
+                    </ul>
+                </div>
+                <p>These changes should better reflect actual combat distances. We will continue to monitor and adjust
+                    as
+                    needed.</p>
+            </div>
+
+            <div class="patch-section">
+                <h3 class="patch-subtitle">-Achievements and Progression</h3>
+                <p>Originally, achievements were just for fun, but players suggested they should impact progression. We
+                    agree.
+                </p>
+                <div class="patch-note">
+                    <ul>
+                        <li>Achievements now contribute to skill unlocks and player progression.</li>
+                        <li>Cosmetic rewards are being added to make them more enticing.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="patch-section">
+                <h3 class="patch-subtitle">-Ammo Tracking Adjustments</h3>
+                <p>Traditional ammo tracking is tedious and slows gameplay. Instead, we're experimenting with a new
+                    approach:
+                </p>
+                <div class="patch-note">
+                    <ul style="padding-left: 15px;">
+                        <li>Rather than tracking every bullet, we track special ammo uses (bursting, suppressive fire,
+                            spraying,
+                            mag
+                            dumping).</li>
+                        <li>Each special use has a limited number of times it can be performed before a forced reload.
+                        </li>
+                        <li>Suppressive fire now has a turn limit before requiring a reload.</li>
+                    </ul>
+                </div>
+                <p>This system will be tested in the next CBT to see if it improves gameplay fluidity.</p>
+            </div>
+
+            <div class="patch-section">
+                <h3 class="patch-subtitle">-Final Notes</h3>
+                <p>Thank you to all our playtesters for your feedback and support. Everything you provide helps us
+                    refine
+                    and
+                    improve the game.</p>
+                <p>As always, send feedback in the ⁠calamari-discussion channel. Happy testing!</p>
+                <p>-Spiny, Lead Developer and Designer</p>
+            </div>
+        </div>
+
+        <hr class="solid" style="color:whitesmoke">
+        
+        <!-- patch notes -->
+        <div>
+            <div class="patch-section">
+                <h3 class="patch-subtitle">Patch Notes 0.0.41</h3>
+
+                <h4 class="patch-mode">Bug Fixes:</h4>
+                <ul>
+                    <li>Fixed an issue where range modifiers sometimes failed to trigger correctly.</li>
+                    <li>Fixed penetration calculations for certain weapons.</li>
+                    <li>Fixed a bug where some deep wounds were not being converted properly with FAKs.</li>
+                </ul>
+
+                <h4 class="patch-mode">Gameplay Changes:</h4>
+                <ul>
+                    <li>All cover now provides a +1 defense bonus.</li>
+                    <li>Weapon penetration values reworked to interact properly with cover.</li>
+                    <li>Rebalanced medkits to be usable by all classes.</li>
+                    <li>Adjusted range categories for consistency.</li>
+                    <li>Overhauled ammo tracking to focus on special use cases rather than individual bullets.</li>
+                </ul>
+
+                <h4 class="patch-mode">Improvements and Additions:</h4>
+                <ul>
+                    <li>Achievements now contribute to progression and skill unlocks.</li>
+                    <li>Cosmetic rewards added to achievement system.</li>
+                    <li>Implemented Advanced First Aid Kits (AFAKs) to replace Surgical Kits.</li>
+                    <li>Added a new system for tracking ammo usage during bursts and suppressive fire.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <footer class="bg-black text-white py-5">
+        <div class="container text-center">
+            <!-- Logo -->
+            <img src="../../assets/Images/Calamari Logo.png" alt="Calamari Logo" class="mb-3" style="height: 200px;">
+
+            <!-- Subtitle -->
+            <p class="text-neon mb-3">CALAMARI / 4.10.25 <br> HERE BE KRAKENS</p>
+
+            <!-- Social Icons -->
+            <div class="d-flex justify-content-center mb-2">
+                <a href="https://x.com/Spinypine2" class="mx-2" style="color:whitesmoke">Twitter</a>
+                <a href="https://cara.app/spinypine" class="mx-2" style="color:whitesmoke">Cara</a>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="mb-3">
+                <a href="../index.html" class="text-white mx-3 text-uppercase">Home</a>
+                <a href="../dungeonShift_info.html" class="text-white mx-3 text-uppercase">Dungeon Shift</a>
+                <a href="../Calamari.html" class="text-white mx-3 text-uppercase">Calamari</a>
+                <a href="../news.html" class="text-white mx-3 text-uppercase">news</a>
+                <a href="../about.html" class="text-white mx-3 text-uppercase">About</a>
+            </div>
+
+            <!-- Legal Text -->
+            <p style="color: whitesmoke;">
+                © 2025 SpinyNA Studios. All rights reserved. Dates and content subject to change. Game is not yet rated.
+                <br> SpinyNA, the SpinyNA logo, Calamari, and the Calamari logo are among the trademarks of SpinyNA
+                studios.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

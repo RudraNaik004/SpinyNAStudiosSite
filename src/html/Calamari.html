@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/calamari.js"></script>
+    <title>L&N Studios | Calamari</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/glassmorphic.css">
+    <link rel="stylesheet" type="text/css" href="../css/Calamari.css">
+
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">L&N Studios</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- Dropdown Menu -->
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dungeonShiftDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dungeon Shift
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dungeonShiftDropdown">
+                            <li><a class="dropdown-item" href="./dungeonShift_info.html">Info</a></li>
+                            <li><a class="dropdown-item" href="./dungeonShift_rules.html">Rulebook</a></li>
+                            <li><a class="dropdown-item" href="./dungeonShift_gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <a class="nav-link" href="./Calamari.html">Calamari</a>
+                    <a class="nav-link" href="./news.html">News</a>
+                    <a class="nav-link" href="./about.html">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselWithIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselWithIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assets/Images/Operation Shattered Earth Title Screen (Calamari).png" class="d-block w-100"
+                    alt="Shattered Earth Expansion">
+                <div class="carousel-text">
+                    <h1>Operation Shattered Earth</h1>
+                    <h3> Welcome To The (Concrete) Jungle </h3>
+                    <p> Operation Shattered Earth brings operators in Rainbow Six: Firewall to the bowels of
+                        Tokyo's subway system and the skyscrapers of Nishi-Shinjuku, fighting Coup-aligned forces and
+                        Yakuza to retake the city in a mini-event for SpinyNA's next title: Calamari OSG.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/Images/Calamari_Mini-Campaign.png" class="d-block w-100"
+                    alt="Southern Wind Expansion">
+                <div class="carousel-text">
+                    <h1> Operation Rogue Titan</h1>
+                    <h3> Your Titan Is Ready </h3>
+                    <p> Operation Rogue Titan is available for all pre orders on launch of Calamari, bringing
+                        contractors
+                        to the snowy tundras and permafrost of northeastern Siberia to stop an ultranationalist nuke
+                        crisis and a looming world war. All with the bleeding edge of Gold Coast's RnD</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/Images/Calamari Splash Menu (day).png" class="d-block w-100" alt="RP6 Cover Art">
+                <div class="carousel-text">
+                    <h1> Launch Day </h1>
+                    <p> Calamari OSG releases April 11th, pre-order now for access to the Task Force Gold Campaign.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+    <!-- News Container -->
+    <div class="container flex-grow-1">
+        <h1> News </h1>
+
+        <div class="row g-4" id="news">
+            
+        </div>
+    </div>
+
+    <hr>
+
+    <!--Description 1-->
+    <!-- Intro information container -->
+    <div class="container py-5">
+        <div class="row">
+
+            <!-- First Column -->
+            <div class="col-md-6 grid-line">
+                <p class="title-text">From the creators</p>
+                <p class="highlight-text">of Rainbow Six: Firewall and Black Lotus</p>
+            </div>
+
+            <!-- Second Column -->
+            <div class="col-md-3 grid-line">
+                <p class="sub-text">+</p>
+                <p class="bold-box">CLPW66</p>
+                <p><strong>Become a contractor</strong> in SpinyNA's new near-future, technothriler tabletop system.
+                    Fight your way through the bowels of the Tokyo Metro, to the towers of Osaka to take down a
+                    coup-detat run by the Yakuza.</p>
+                <p class="code-text">INTRUSION DETECTED // SECURITY V209 11</p>
+            </div>
+
+            <!-- Third Column -->
+            <div class="col-md-3">
+                <p>Calamari is currently in development for <strong>Tabletop</strong> featuring a DM companion
+                    app, miniatures, and more.</p>
+
+                <p> Along with strong digital support, and built from the ground up for remote play over <strong>
+                        Discord </strong></p>
+                <p class="code-text">CALLI LOG 898123-1909012 2333</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Description 2 -->
+    <!-- Lore information container -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- First Column -->
+            <div class="col-md-6 grid-line">
+                <h5 style="color: whitesmoke;"><i>"Seven years ago, A coronal mass ejection hit the earth.
+                        Satellites,
+                        Internet, GPS, almost everything connecting the world was either sent into space or fried in
+                        a
+                        matter of seconds, and started what was now called 'The Crash'. What should have been four
+                        years
+                        of humanity trying to rebuild turned into four years of misunderstanding, misperception, and
+                        tension, with a civil war in Japan being the spark to light it all ablaze."</i></h5>
+
+                <h5></h5>
+                <p class="code-text">RUNNING SECURITY SUBROUTINES // SECv209xx1</p>
+            </div>
+
+            <!-- <div class="col-md-5">
+                <div class="glassmorphic-card-img h100"
+                    style="background-image: url('https://www.usatoday.com/gcdn/presto/2018/12/15/USAT/2e7b9863-85ac-4faa-aad3-096fc1826c20-GettyImages-841647034.jpg?width=660&height=441&fit=crop&format=pjpg&auto=webp');">
+                    <div class="icon-card">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Second Column -->
+            <div class="col-md-6">
+                <p class="bold-box">KZKG43</p>
+                <p class="sub-text">--+</p>
+                <p>by <strong>2022</strong>, the world as we know it has changed drastically. Nanomachines speed up
+                    recovery times
+                    tenfold, Augmented Reality provides the average contractor with all the information they'd need at a
+                    glance.
+                    And advanced AIs predict the immediate future with terrifying precision.</p>
+                <p> However, a solar storm in 2016 grinded everything to a halt, splitting the world in 2 and
+                    starting a new cold war between a rising China and a weakened NATO. </p>
+                <p class="code-text">//PETER, THE SQUID IS HERE</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Description 3 -->
+    <!-- Gameplay Information Container -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- First Column -->
+            <div class="col-md-7 grid-line">
+                <h1> The Gameplay </h1>
+                <p> Developed with inspiration from the likes of Battlefield, Modern Warfare, Rainbow Six, and Ghost
+                    Recon, Calamari strips down the cumbersome mechanics of other tabletops into simple add [x] and
+                    subtract [y], with a heavy emphasis on stacking the odds in your favor before you execute. Every
+                    roll is lethal, thresholds are low, and oftentimes <Strong>one roll can mean the difference of life
+                        and death.</Strong>
+                </p>
+                <p> Character creation is even easier, as our companion auto-calculates information based off of your
+                    input,
+                    and with classes coming with pre-determined skillsets it's just a matter of distributing a few extra
+                    points, choosing your gear and gadgets, and jumping into a session.
+                </p>
+                <br> 
+                <br> 
+            </div>
+
+            <!-- Second Column -->
+            <div class="col-md-5">
+                <div class="glassmorphic-card-img h100"
+                    style="background-image: url('../assets/Images/Kailey_Powerthrough.png');">
+                    <div class="icon-card">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!--Description 4-->
+    <!-- Classes and gear -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- First Column -->
+            <div class="col-md-5 grid-line">
+                <div class="glassmorphic-card-img h100"
+                    style="background-image: url('../assets/Images/Classes.png'); min-height:20rem; background-size: 25rem; background-position: center;">
+                    <div class="icon-card">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Column -->
+            <div class="col-md-7">
+                <h1> Classes </h1>
+                <p> Character creation is even easier, as our companion auto-calculates information based off of your
+                    input,
+                    and with classes coming with pre-determined skillsets it's just a matter of distributing a few extra
+                    points, choosing your gear and gadgets, and jumping into a session.
+                </p>
+                <ul>
+                    <li> Assault- The tip of the spear, fighting from the front with underbarrel shotguns, grenade
+                        launchers, and breaching tools. Or fighting in the backline with active camo
+                        to sneak in unannounced.</li>
+                    <li> Support- Medics, gunners, mortars and sheilds. Supporting the team with cover, indirect fire,
+                        and keeping enemies pinned to make openings.
+                    <li> Engineer- Anti Tank, Anti Armor, and drone warfare. Engineers specialize in either removing
+                        emplacements themselves, or getting unmanned drones to do it for them.</li>
+                    <li> Recon- Deep in the backline and spotting targets from afar. The only class with access to
+                        snipers, Recon also get access to traps, traversal gear, surveillance drones, and cyberwarfare.
+                    </li>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <!-- Second Column -->
+                <div class="col-md-7 grid-line">
+                    <h1> Equipment and Gear</h1>
+                    <p> Similar to DnD, but different, Players get to choose specific equipment and weapons as their
+                        items and gear. From high powered railguns to advanced combat drones, each class brings
+                        something to the table with the set of gear and equipment assigned to each.
+                    </p>
+
+                    <p> All classes have specific subclasses and then gameplay subsets within them. Such as Assault
+                        consisting of the Raider and Rifleman subclasses, or Engineer with specializing into Combat
+                        engineering and Anti-tank or Technical engineering with drone warfare.</p>
+
+                    <p> And with earning skill points and currency consistently, you're never stagnating and stuck with
+                        a certain set of equipment unless the DM decides so. Not to mention modding and homebrew support
+                        for custom gadgets and ideas.
+                </div>
+
+                <!-- First Column -->
+                <div class="col-md-5">
+                    <div class="glassmorphic-card-img h100"
+                        style="background-image: url('../assets/Images/guns.png'); min-height:20rem; background-size: cover; background-position: center;">
+                        <div class="icon-card">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                <a
+                    href="https://docs.google.com/document/d/1CzHhGABZYwjduxuukAZZ-BtgGbUaNpohkvClDNkapcM/edit?tab=t.0#heading=h.30c436fxkoq">
+                    <button type="button" class="btn glassmorphic-btn">Get the rulebook</button>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Description 5-->
+    <!-- Campaign Information -->
+    <div id="col">
+        <div class="container flex-grow-1">
+            <h1>Campaigns</h1>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- FAQ Accordian -->
+    <div class="container flex-grow-1">
+
+        <h3> Frequently Asked Questions:</h3>
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Do you ship to my country?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Yup.</strong> We ship worldwide, the only issue is shipping cost, which you'll have
+                        to
+                        cover.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Where is SpinyNA based?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>USA.</strong> All miniatures and other merchandise are all manufactured in the
+                        United
+                        States.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        Is Calamari Complicated?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Nope.</strong> Calamari was built off of the play-by-text systems of our earlier
+                        project:
+                        Rainbow Six: Firewall. It's meant to be a lightweight system using the GMs discretion and
+                        played
+                        from just a discord chat! As such, we've tried to make all calculations as simple as 1+2 =
+                        3.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        When will the rulebook be released?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>April 11th</strong> We want to ensure that the game can be played best with the
+                        companion app, and expect to release around that time.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer class="bg-black text-white py-5">
+        <div class="container text-center">
+            <!-- Logo -->
+            <img src="../assets/Images/Calamari Logo.png" alt="Calamari Logo" class="mb-3" style="height: 200px;">
+
+            <!-- Subtitle -->
+            <p class="text-neon mb-3">CALAMARI / 4.10.25 <br> HERE BE KRAKENS</p>
+
+            <!-- Social Icons -->
+            <div class="d-flex justify-content-center mb-2">
+                <a href="https://x.com/Spinypine2" class="mx-2" style="color:whitesmoke">Twitter</a>
+                <a href="https://cara.app/spinypine" class="mx-2" style="color:whitesmoke">Cara</a>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="mb-3">
+                <a href="./index.html" class="text-white mx-3 text-uppercase">Home</a>
+                <a href="./dungeonShift_info.html" class="text-white mx-3 text-uppercase">Dungeon Shift</a>
+                <a href="./Calamari.html" class="text-white mx-3 text-uppercase">Calamari</a>
+                <a href="./news.html" class="text-white mx-3 text-uppercase">news</a>
+                <a href="./about.html" class="text-white mx-3 text-uppercase">About</a>
+            </div>
+
+            <!-- Legal Text -->
+            <p style="color: whitesmoke;">
+                © 2025 SpinyNA Studios. All rights reserved. Dates and content subject to change. Game is not yet
+                rated.
+                <br> SpinyNA, the SpinyNA logo, Calamari, and the Calamari logo are among the trademarks of SpinyNA
+                studios.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

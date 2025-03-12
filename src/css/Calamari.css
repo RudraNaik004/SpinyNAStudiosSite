@@ -1,0 +1,46 @@
+
+.grid-line {
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.title-text {
+    font-size: 3rem;
+    font-weight: 300;
+}
+.highlight-text {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.sub-text {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+.code-text {
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: gray;
+}
+.bold-box {
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.text-neon {
+    color: #ff9900; /* Neon green */
+    font-family: "Courier New", monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff9900;
+}

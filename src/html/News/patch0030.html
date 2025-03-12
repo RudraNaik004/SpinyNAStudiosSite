@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../js/calamari.js"></script>
+    <title>L&N Studios | News</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../../css/glassmorphic.css">
+    <link rel="stylesheet" type="text/css" href="../../css/Calamari.css">
+    <link rel="stylesheet" type="text/css" href="../../css/news.css">
+
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">L&N Studios</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- Dropdown Menu -->
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dungeonShiftDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dungeon Shift
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dungeonShiftDropdown">
+                            <li><a class="dropdown-item" href="../dungeonShift_info.html">Info</a></li>
+                            <li><a class="dropdown-item" href="../dungeonShift_rules.html">Rulebook</a></li>
+                            <li><a class="dropdown-item" href="../dungeonShift_gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <a class="nav-link" href="../Calamari.html">Calamari</a>
+                    <a class="nav-link" href="../news.html">News</a>
+                    <a class="nav-link" href="../about.html">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
+    <div class="container mt-5">
+        <h2 class="section-title">Update</h2>
+        <div class="patch-section">
+            <h3 class="patch-subtitle"><i>Patch 0.03</i></h3>
+            <h5 style="color:whitesmoke"><i>Snake eyes... Again.</i></h5>
+            <br>
+            <p>Man I am so happy we never made that May release window for Calamari since good lord our QA testing was
+                not as rigorous as what our playtesters are putting the game through. But I digress, and am extremely
+                happy either way.</p>
+            <p>Welcome to Patch 0.03 of the Calamari Alpha Playtest. As a lot of you know by now we’ve shifted away from
+                the old director system, scrapped any remnants of the Genesis system, and moved into integrating SCUMM
+                for a more dynamic gameplay experience. Though, as we’ve learned from the first playtest a few weeks
+                back—a lot of things need tweaking. So let’s go through some of the dev notes for the 0.03 patch, shall
+                we?</p>
+        </div>
+
+        <div class="patch-section">
+            <h3 class="patch-subtitle">-Improved check overlay</h3>
+            <p>One thing we noticed is that during dialogue, when the 'director' threw out a check to provide
+                information to players, was that the interface was prone to look a little confusing at times, and also
+                be a bit slow to show information. We want to distinguish information from a check with actual prose and
+                dialogue a bit to reduce confusion before it becomes something we need to worry about later. So we’re
+                going to push a change this patch that might look a bit familiar...</p>
+
+            <div class="patch-note">
+                <p>Computers [Success] - You understand the term 'director' from an earlier patch notes. It was
+                    mentioned that it was the main way that the game determines what encounters happen, and how they
+                    happen. Almost like a movie director and exactly like how a specific valve game implemented it, one
+                    that was left for dead.</p>
+            </div>
+            <br>
+            <div class="patch-note">
+                <p>Trivia [Failure] - The presentation of this information vexes you. The name
+                    is on the tip of your tongue and it sounds like some sort of dance game… At least you think it does.
+                    It did have ‘disco’ in it.</p>
+            </div>
+        </div>
+
+        <div class="patch-section">
+            <h3 class="patch-subtitle">-Armor and Cover</h3>
+            <p>Another thing we noticed from the first playtest is that enemies were absurdly difficult to kill at times
+                due to over-tuned armor values and positional bonuses from cover. We originally removed the positional
+                bonuses, and made armor values a threshold you need to surpass, but against high armor enemies it made
+                hitting them or doing damage nigh impossible. So we changed that back to it being a dice roll using the
+                enemy’s defense stat.</p>
+            <p>In an earlier hotfix we changed enemy armor to be much lower, in the range of armor 1 and 2, to lower the
+                thresholds needed to cause damage and wounds to an enemy. So far, for chaff, it’s worked quite well! But
+                we have the other issue now of cover not helping them at all when it comes to their defense. So now that
+                they’re more squishy, we’re re-enabling cover adjustments and possibly distance modifiers for the next
+                session.</p>
+        </div>
+
+        <div class="patch-section">
+            <h3 class="patch-subtitle">-Movement</h3>
+            <p>Yeah we’re still trying to sort this one our ourselves too… But, we do want to emphasize player movement
+                a bit more during combat. One thing we’re planning to push this patch is a change to cover mechanics to
+                introduce flanking to completely negate the effects of a cover bonus. In addition, movement from cover
+                to cover will take one turn, and you’ll be able to shoot while moving a bit easier to compensate, but
+                also vulnerable until your next turn.</p>
+        </div>
+
+        <div class="patch-section">
+            <h3 class="patch-subtitle">-Final Notes</h3>
+            <p>I would write something witty or sappy here… But I don’t think there’s much to say that I haven’t
+                already. All the changes will be put into the full patch notes below. We do have some future stuff
+                planned, like a progression system for gadgets, support for 8 player co-op, changes to the gadget
+                selection and loadout, close air support being a bit more prevalent, and then possibly improvements to
+                vehicular combat (right now we’re basically treating it as impenetrable to small arms and extremely
+                vulnerable to AT if its armored), and more.</p>
+            <p>But I digress. Patch notes below, send your feedback in the ⁠calamari-discussion channel if you’ve got
+                notes and comments, and feel free to throw suggestions our way.</p>
+            <p>I could really go for some legally distinct orange soda...</p>
+            <p>-Spiny, Lead Developer and Designer</p>
+        </div>
+
+        <hr class="solid" style="color:whitesmoke">
+
+        <div class="patch-section">
+            <h3 class="patch-subtitle">Patch Notes 0.0.30</h3>
+
+            <h4 class="patch-mode">Bug fixes:</h4>
+            <ul>
+                <li>Fixed bug with soundtracks not playing during gameplay</li>
+                <li>Fixed bug with Goose not having as much dialogue</li>
+                <li>Fixed bug where Kurt's prosthetic would appear on his Calamari model</li>
+                <li>Fixed bug not allowing operators to change the model on their PRD drones using Mouse 5 on PC</li>
+            </ul>
+
+            <h4 class="patch-mode">Gameplay Changes:</h4>
+            <ul>
+                <li>Re-enabled defense modifiers for cover per SCUMM documentation</li>
+                <li>Re-enabled offense modifiers for distance and conditions per SCUMM documentation</li>
+                <li>Reworked cover to cover movement</li>
+                <li>Re-enabled flanking bonuses</li>
+                <li>Reworked grenades to be a bit more consistent.</li>
+                <li>Changed explosive weapon checks to fall under the Rifles skill.</li>
+                <li>Adjusted Trivia to function similar to Encyclopedia from Disco Elysium</li>
+                <li>Adjusted checks to 'check someone out' to also fall under investigation</li>
+            </ul>
+
+            <h4 class="patch-mode">Improvements and additions:</h4>
+            <ul>
+                <li>Introduced Kurt and Marcus to operator roster for playtesting</li>
+                <li>Introduced Penny as an operator for the Calamari Mini-Event roster.</li>
+                <li>Supposedly improved loading times.</li>
+                <div class="patch-note">
+                    <p>How? We found out we can turn milla's model into a koala to improve load times. I won’t
+                        elaborate. It's
+                        stupid.</p>
+                </div>
+                <br>
+                <li>Improved combat flow and dice rolls</li>
+                <li>Improved OST selection for combat, setup, and downtime phases</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer class="bg-black text-white py-5">
+        <div class="container text-center">
+            <!-- Logo -->
+            <img src="../../assets/Images/Calamari Logo.png" alt="Calamari Logo" class="mb-3" style="height: 200px;">
+
+            <!-- Subtitle -->
+            <p class="text-neon mb-3">CALAMARI / 4.10.25 <br> HERE BE KRAKENS</p>
+
+            <!-- Social Icons -->
+            <div class="d-flex justify-content-center mb-2">
+                <a href="https://x.com/Spinypine2" class="mx-2" style="color:whitesmoke">Twitter</a>
+                <a href="https://cara.app/spinypine" class="mx-2" style="color:whitesmoke">Cara</a>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="mb-3">
+                <a href="../index.html" class="text-white mx-3 text-uppercase">Home</a>
+                <a href="../dungeonShift_info.html" class="text-white mx-3 text-uppercase">Dungeon Shift</a>
+                <a href="../Calamari.html" class="text-white mx-3 text-uppercase">Calamari</a>
+                <a href="../news.html" class="text-white mx-3 text-uppercase">news</a>
+                <a href="../about.html" class="text-white mx-3 text-uppercase">About</a>
+            </div>
+
+            <!-- Legal Text -->
+            <p style="color: whitesmoke;">
+                © 2025 SpinyNA Studios. All rights reserved. Dates and content subject to change. Game is not yet rated.
+                <br> SpinyNA, the SpinyNA logo, Calamari, and the Calamari logo are among the trademarks of SpinyNA
+                studios.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

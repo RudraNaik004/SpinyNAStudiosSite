@@ -1,0 +1,170 @@
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.glassmorphic-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 0px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
+    padding-top: 2rem;
+    width: 100%;
+    text-align: left;
+}
+
+.glassmorphic-card-news {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 0px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
+    padding-top: 2rem;
+    width: 100%;
+    text-align: left;
+
+    min-height: 20rem;
+
+    background-image: url('../assets/Images/Placeholder_view_vector.svg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.glassmorphic-card-long {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 0px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+    padding: 1.5rem;
+    padding-top: 2rem;
+    width: 100%;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.glassmorphic-card-img {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 0px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
+    padding-top: 2rem;
+    width: 100%;
+    text-align: left;
+
+    background-image: url('../assets/Images/Placeholder_view_vector.svg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.glassmorphic-card,
+.glassmorphic-card-long {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.glassmorphic-card-news:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.glassmorphic-btn {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 0px;
+    padding: 12px 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.glassmorphic-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    color:whitesmoke;
+    font-weight: bolder;
+}
+
+.glassmorphic-navbar {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.icon-card {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.glassmorphic-accordion {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 0px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    /* Space around accordion */
+    width: 50%;
+    /* Adjust width as needed */
+    min-width: 400px;
+    /* Prevents it from getting too small */
+    margin: auto;
+    /* Centers it horizontally */
+}
+
+/* Make sure the individual accordion items inherit the glass effect */
+.accordion-item {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Style the accordion buttons */
+.accordion-button {
+    background: rgba(255, 255, 255, 0.15) !important;
+    color: white !important;
+    border-radius: 0px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+/* Add hover and focus effects */
+.accordion-button:hover,
+.accordion-button:focus {
+    background: rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Ensure accordion body text is readable */
+.accordion-body {
+    color: white;
+}
+
+/* Ensure the row makes both columns stretch equally */
+.container.flex-grow-1 .row {
+    display: flex;
+    align-items: stretch;
+}
+
+/* Allow both elements to stretch */
+.glassmorphic-card-long,
+.glassmorphic-card-img {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
