@@ -1,0 +1,22 @@
+{
+    "campaigns": [ 
+        {
+            "image": "../assets/Images/Calamari_Mini-Campaign.png",
+            "title": "Operation Rogue Titan",
+            "subtitle": "Your Titan Is Ready",
+            "description":"One of the earliest versions of Calamari, the Rogue Titan playtest was our initial plans for what Calamari was meant to be. A technothriller focusing around a theoretical conflict between the newly formed Siberian Republics and the country they were originally a part of: The Russian Federation. This campaign brings contractors to the snowy tundras of siberia in search of a lost nuke, with Russians and and Siberians scrambling to be the first to retrieve it."
+        },
+        {
+            "image": "../assets/Images/Operation%20Shattered%20Earth%20Title%20Screen%20(Calamari).png",
+            "title": "Operation Shattered Earth",
+            "subtitle": "Dancing In The Rain",
+            "description": "Operation Shattered Earth was an expansion for our other title, Rainbow Six: Firewall. It introduced new mechanics to the game such as vehicles, armor, and then new encounters with Exo-Yakuza and more. Camapaign will be available on launch as bonus content to supporters."
+        },
+        {
+            "image": "../assets/Images/Calamari%20Splash%20Menu%20(Day).png",
+            "title": "Pre-Order Launch",
+            "subtitle": "4.10.2025",
+            "description": "With all the work done by playtesters in Operation Shattered Earth, we've been able to move to the final stages of development. As of now Calamari is almost finished system and content wise. And all that is left is to finish the companion app and key art. We also have a final campaign planned specifically for those that pre-ordered: Task Force Gold"
+        }
+    ]
+}

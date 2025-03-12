@@ -1,0 +1,56 @@
+{
+    "dungeonShift": [
+        {
+            "imageID": "ds001",
+            "title": "loot013",
+            "description": "Example of a loot card.",
+            "version": "V 1.0",
+            "url": "../assets/images/loot013.png"
+        },
+        {
+            "imageID": "ds002",
+            "title": "weapon001",
+            "description": "Example of a weapon card.",
+            "version": "V 1.0",
+            "url": "../assets/images/weapon001.png"
+        },
+        {
+            "imageID": "ds003",
+            "title": "normalRoom059",
+            "description": "Example of a room card.",
+            "version": "V 1.0",
+            "url": "../assets/images/normalRoom059.png"
+        },
+        {
+            "imageID": "ds004",
+            "title": "Room Doors",
+            "description": "Doors used on room cards.",
+            "version": "V 1.0",
+            "url": "../assets/images/Room Doors.png"
+        },
+        {
+            "imageID": "ds005",
+            "title": "Card Game Icons",
+            "description": "Icons used on all cards.",
+            "version": "V 1.0",
+            "url": "../assets/images/Card Game Icons.png"
+        }
+    ],
+
+    "devs": [
+        {
+            "name": "Rudra Naik",
+            "img": "",
+            "desc":"Rudra_Naik",
+            "email": "rudranai@iastate.edu",
+            "linkedin": "https://www.linkedin.com/in/rudra-naik-8b1878279/"
+        },
+        {
+            "name": "Kobe Laws",
+            "img": "",
+            "desc":"",
+            "email": "klaws@iastate.edu",
+            "linkedin": "https://www.linkedin.com/in/kobe-laws-037a271b6/"
+        }
+    ]
+}

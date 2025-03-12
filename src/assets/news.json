@@ -1,0 +1,36 @@
+{
+    "news": [
+        {
+            "image": "../assets/Images/Raccoon_Works_Logo_Solo_White.png",
+            "desc":"Raccoon_Works_Logo",
+            "title": "Patch Notes",
+            "subtitle": "Patch 0.0.42",
+            "description": "The one with colored radio subtitles.",
+            "link": "../html/News/patch0042.html"
+        },
+        {
+            "image": "../assets/Images/Raccoon_Works_Logo_Solo_White.png",
+            "desc":"Raccoon_Works_Logo",
+            "title": "Patch Notes",
+            "subtitle": "Patch 0.0.41",
+            "description": "I am hurt really bad, I need a medic-",
+            "link": "../html/News/patch0041.html"
+        },
+        {
+            "image": "../assets/Images/Raccoon_Works_Logo_Solo_White.png",
+            "desc":"Raccoon_Works_Logo",
+            "title": "Patch Notes",
+            "subtitle": "Patch 0.0.40",
+            "description": "Im THE JUGGERNAUT",
+            "link": "../html/News/patch0040.html"
+        },
+        {
+            "image": "../assets/Images/Raccoon_Works_Logo_Solo_White.png",
+            "desc":"Raccoon_Works_Logo",
+            "title": "Patch Notes",
+            "subtitle": "Patch 0.0.3",
+            "description": "[Trivia| Success] Wait, I've seen this one before",
+            "link": "../html/News/patch0030.html"
+        }
+    ]
+}
